@@ -31,7 +31,7 @@ export default function Form() {
   };
 
   return (
-    <form className="w-3/4" onSubmit={handleFormSubmit}>
+    <form className="md:w-3/4 w-full" onSubmit={handleFormSubmit}>
       <div className="relative w-full">
         <input
           type="email"
@@ -39,7 +39,7 @@ export default function Form() {
           name="email"
           value={email} // Bind the input value to the state
           onChange={(e) => setEmail(e.target.value)} // Update state on input change
-          className="w-full px-3 py-4 outline-none bg-theme_blue-100/10 rounded-lg"
+          className="w-full px-3 py-4 outline-none bg-theme_blue-100/10 rounded-lg border-2 "
         />
         <p className="mt-6 text-xs max-w-3/4">
           😺 we promise not to spam you with cat memes... unless you want them!
