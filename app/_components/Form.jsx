@@ -61,7 +61,7 @@ export default function Form() {
         {/* Confirmation Message */}
         {isSubmitted && !error && (
           <p className="mt-4 text-green-500 text-sm font-bold">
-            🎉 You're in! :)
+            🎉 You&apos;re in! :)
           </p>
         )}
       </div>
