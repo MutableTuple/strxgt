@@ -27,6 +27,5 @@ export async function createSignupMail(email) {
     console.error("Error inserting email:", error);
     return { success: false, error: error.message };
   }
-
   return { success: true, data };
 }

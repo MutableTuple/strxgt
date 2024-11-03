@@ -55,7 +55,7 @@ export default function Form() {
           type="submit"
           className="mt-4 px-6 py-2 bg-gradient-to-r from-pink-500 via-orange-400 to-red-500 text-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
         >
-          Sign Me Up!
+          Start building my portfolio 😀!
         </button>
 
         {/* Confirmation Message */}

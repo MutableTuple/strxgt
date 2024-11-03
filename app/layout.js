@@ -38,6 +38,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" type="image/x-icon" />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-5DR7DY8JFC"
+        />
+
+        <Script id="google-analytics">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-5DR7DY8JFC');
+          `}
+        </Script>
       </head>
       <body className={`${mulish.className} overflow-x-hidden`}>
         {children}
