@@ -1,5 +1,6 @@
 import { Mulish, Poppins, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const mulish = Poppins({
   subsets: ["latin"],
