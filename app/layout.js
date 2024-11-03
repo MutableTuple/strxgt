@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "Showcase your gaming achievements and skills with Strontium. Track your gaming stats, connect with friends, and explore the gaming community.",
   keywords:
-    "gaming portfolio, track gaming stats, gaming achievements, gamer community, gaming profile, connect with friends",
+    "gaming portfolio, track gaming stats, gaming achievements, gamer community, gaming profile, connect with friends, Strontium gaming, video game portfolio, online gamer profile, showcase gaming skills, Steam integration, custom games, add custom games, multiplayer portfolio, gaming accomplishments, video game statistics, esport achievements, gaming network, game collection, game stats tracker, competitive gaming profile, game history tracker, share gaming highlights, gaming social media, gamers community, online gaming identity, create gaming resume, Strontium app, professional gaming profile, gamer connections, gaming trophies, gaming milestones",
   author: "Strontium GT",
   robots: "index, follow", // Instruct search engines to index the page and follow links
   og: {
@@ -33,7 +33,6 @@ export const metadata = {
       "https://raw.githubusercontent.com/MutableTuple/fm_images/refs/heads/main/game_screen_cheetos.png", // Replace with a relevant image URL
   },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
