@@ -53,9 +53,9 @@ export default function Form() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="mt-4 px-6 py-2 bg-gradient-to-r from-pink-500 via-orange-400 to-red-500 text-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+          className=" mt-4 px-6 py-2 bg-gradient-to-r from-pink-500 via-orange-400 to-red-500 text-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_10px_rgba(255,100,100,0.8),0_0_20px_rgba(255,140,0,0.6),0_0_30px_rgba(255,70,70,0.4)]"
         >
-          Start building my portfolio 😀!
+          Start building my <br /> portfolio 😀!
         </button>
 
         {/* Confirmation Message */}
